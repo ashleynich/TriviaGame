@@ -1,0 +1,56 @@
+html { 
+    background: url(https://media.giphy.com/media/jZtEA0nyCrVxm/giphy.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+    color: aliceblue;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+  }
+
+ div.container {
+    margin: auto;
+    width: 50%;
+    height: 750px;
+    padding: 10px;
+     opacity: 0.5;
+     background-color: aliceblue;
+     font-family: 'Actor', sans-serif;
+
+
+  }
+
+  .question {
+    font-family: 'Actor', sans-serif;
+    font-weight: bold;
+
+  }
+
+  #answer {
+    font-family: 'Actor', sans-serif;
+  }
+
+  .submit {
+    font-family: 'Actor', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 75px;
+    height: 30px;
+    align-content: center;
+  }
+
+
+  .timer {
+      text-align: center;
+      font-weight: bold;
+      color: black;
+  }
+
+  h2 {
+      text-align: center;
+  }

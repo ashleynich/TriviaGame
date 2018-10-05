@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Terrestrial Trivia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+        <audio id="myAudio" controls autoplay>
+            <source src="assets/images/Breathe.mp3" type="audio/mpeg">
+        </audio>
+
+    <h1>Terrestrial Trivia</h1>
+
+    <div class="container">
+
+        <div id="time-left"></div>
+        <h1 id="timer" class="timer">
+            Time Remaining 
+            <div class="countdown"></div>
+        </h1>
+
+              <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+
+                    <li><div class="question">What type of galaxy is the most common in the universe?</div></li>
+                    <input id="answer" type="radio" name="group1" value="wrong"> Spiral<br>
+                    <input id="answer" type="radio" name="group1" value="wrong"> Irregular<br>
+                    <input id="answer" type="radio" name="group1" value="correct"> Elliptical<hr>
+                    
+                    <li><div class="question">What is the coldest place in the universe?</div></li>
+                    <input id="answer" type="radio" name="group2" value="wrong"> Pluto<br>
+                    <input id="answer" type="radio" name="group2" value="wrong"> The Moon<br>
+                    <input id="answer" type="radio" name="group2" value="correct"> Boomerang Nebula<hr>
+                    
+                    <li><div class="question">The hottest place in the universe is located in which constellation?</div></li>
+                    <input id="answer" type="radio" name="group3" value="wrong"> Capricorn<br>
+                    <input id="answer" type="radio" name="group3" value="wrong"> Cancer<br>
+                    <input id="answer" type="radio" name="group3" value="correct"> Virgo<hr>
+
+                    <li><div class="question">What is the smallest planet in our solar system?</div></li>
+                    <input id="answer" type="radio" name="group3" value="wrong"> Uranus<br>
+                    <input id="answer" type="radio" name="group3" value="wrong"> Earth<br>
+                    <input id="answer" type="radio" name="group3" value="correct"> Mercury<hr>
+                    
+                    <button class="submit" onclick="return handleClick();" type="submit">Submit</button>
+                    
+                    </form>
+   
+       
+
+
+
+    </div>
+
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+setTimeout(fiveSeconds, 1000 * 5);
+setTimeout(timeUp, 1000 * 30);
+
+if (!clockRunning) {
+    intervalId = setInterval(stopwatch.count, 1000);
+    clockRunning = true;
+  }
+},
+
+
+
+function fiveSeconds() {
+    // in the element with an id of time-left add an h2 saying About 10 Seconds Left!
+    // console log 10 seconds left
+    $("#time-left").append("<h2>About 5 Seconds Left!</h2>");
+    console.log("5 seconds left");
+
+function timeUp() {
+        // in the element with an id of time-left add an h2 saying Time's Up!
+        // console log done
+        console.log("done");
+        $("#time-left").append("<h2>Time's Up!</h2>");
+        console.log("time is up");
